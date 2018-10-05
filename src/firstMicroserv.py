@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, request
 from werkzeug.routing import BaseConverter, ValidationError
-from flakon import
+from flakon import JsonBlueprint
+
 _USERS = {'1':'Barabba','2':'Bubba'}
 _IDS = {val:id for id, val in _USERS.items()}
 
